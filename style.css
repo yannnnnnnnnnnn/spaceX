@@ -1,0 +1,253 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    height: 3559px;
+    background: #010001;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 123px;
+}
+
+.header-content {
+    justify-content: space-between;
+    display: flex;
+    width: 1230px;
+    height: 17px;
+}
+
+
+.nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+
+}
+
+.main {
+
+    height: 1250px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 123px;
+    width: 382;
+    height: 75;
+    top: 190px;
+    left: 529px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+.main-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268;
+    height: 44;
+    top: 291px;
+    left: 586px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+}
+
+.main-earth {
+    width: 1437;
+    height: 1006;
+    top: 367px;
+    left: 1px;
+    opacity: 1;
+
+}
+
+.title-section {
+    width: 177px;
+    height: 1px;
+    top: 1865px;
+    left: 149px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 140px;
+    margin-top: 100px;
+}
+
+.overview-text {
+    display: flex;
+    background: #000000;
+    width: 603px;
+    margin-left: 149px;
+    margin-top: 400px;
+    position: absolute;
+    letter-spacing: 100%;
+    line-height: 200%;
+    font-family: Roboto;
+}
+
+.falcon-parameters {
+    width: 50%;
+    color: white;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.rocket-section {
+    width: 644;
+    height: 1718;
+    top: 1307px;
+    left: 691px;
+    opacity: 1;
+    margin-left: 800px;
+    margin-top: -150px;
+    position: sticky;
+}
+
+.unmached-section {
+    width: 173px;
+    height: 68px;
+    top: 2000px;
+    left: 149px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: white;
+    margin-top: -500px;
+    margin-left: 147px;
+}
+
+.podtext-section {
+    width: 490px;
+    height: 145px;
+    top: 2556px;
+    left: 149px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0%;
+    color: white;
+    margin-left: 147px;
+}
+
+.logo-footer {
+    width: 138px;
+    height: 17px;
+    top: 3208px;
+    left: 651px;
+    opacity: 1;
+    margin-top: 500px;
+    margin-left: 650px;
+}
+
+.navt {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+.navt-link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.support-footer {
+    width: 455px;
+    height: 21px;
+    top: 3317px;
+    left: 492px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: grey;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+
+.intable-footer {
+    width: 87px;
+    height: 21px;
+    top: 3388px;
+    left: 677px;
+    opacity: 1;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin-top: 40px;
+    margin-left: 670px;
+}
+
+.table-footer {
+    width: 260px;
+    height: 60px;
+    top: 3368px;
+    left: 590px;
+    opacity: 1;
+    border-width: 2px;
+    border-radius: 6px;
+    margin-left: 580px;
+    margin-top: -38px;
+}
